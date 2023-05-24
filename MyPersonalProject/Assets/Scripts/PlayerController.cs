@@ -8,8 +8,8 @@ public class PlayerController : MonoBehaviour
     public float speed = 5.0f;
     private float horizontalInput;
     private float forwardInput;
-    public float jumpForce;
     public float turnSpeed = 30.0f;
+    public float jumpForce;
     
     // Start is called before the first frame update
     void Start()

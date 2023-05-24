@@ -5,9 +5,9 @@ using UnityEngine;
 public class SpawnManger : MonoBehaviour
 {
     public GameObject[] enamyPrefab;
-    public int enamyCount;
+    private int enamyCount;
     private float SpawnRange = 5;
-    public int waveNumber = 3;
+    private int waveNumber = 3;
 
      
 
