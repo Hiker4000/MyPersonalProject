@@ -8,6 +8,7 @@ public class SpawnManger : MonoBehaviour
     private int enamyCount;
     private float SpawnRange = 5;
     private int waveNumber = 3;
+    public GameObject PowerUpPrefab;
 
      
 
@@ -21,7 +22,7 @@ public class SpawnManger : MonoBehaviour
         for (int i = 0; i < enamiesToSpawn; i++)
         {
             int randomEnamy = Random.Range(0, enamyPrefab.Length);
-            Instantiate(enamyPrefab[randomEnamy], GenerateSpawnPosition(), enamyPrefab[randomEnamy].transform.rotation);
+            Instantiate(PowerUpPrefab, GenerateSpawnPosition(), enamyPrefab.transform.rotation);
         }
     }
 
