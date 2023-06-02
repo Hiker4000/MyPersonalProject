@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 708, y: 492}
   m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
-  controlID: 119
+  controlID: 48
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 128
+  controlID: 49
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 61
+  controlID: 84
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -429,9 +429,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 16.967602, y: 3.7472458, z: -21.877628}
+    m_Target: {x: 0.15832984, y: -45.269062, z: 22.44325}
     speed: 2
-    m_Value: {x: 16.967602, y: 3.7472458, z: -21.877628}
+    m_Value: {x: 0.15832984, y: -45.269062, z: 22.44325}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -478,9 +478,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.43976378, y: -0.5580405, z: 0.49131945, w: 0.50438684}
+    m_Target: {x: -0.3634639, y: 0.24263133, z: -0.10125377, w: -0.8941367}
     speed: 2
-    m_Value: {x: 0.44038674, y: -0.5571347, z: 0.49200827, w: 0.50357544}
+    m_Value: {x: -0.36199418, y: 0.24269716, z: -0.100853495, w: -0.894364}
   m_Size:
     m_Target: 35.732494
     speed: 2
@@ -536,10 +536,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1014}
-      m_SelectedIDs: e654feff
-      m_LastClickedID: -109338
-      m_ExpandedIDs: 50fbffffa23d0000
+      scrollPos: {x: 0, y: 886}
+      m_SelectedIDs: da060000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 50fbffff4c3e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -601,22 +601,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\wissa\Downloads\MyPersonalProject\MyPersonalProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 383e0000
-    m_LastClickedID: 15928
-    m_ExpandedIDs: 00000000303e000000ca9a3b
+    m_SelectedIDs: 16410000
+    m_LastClickedID: 16662
+    m_ExpandedIDs: 000000000c41000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +644,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000303e0000
+    m_ExpandedIDs: 000000000c410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
