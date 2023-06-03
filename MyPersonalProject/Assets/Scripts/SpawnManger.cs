@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class SpawnManger : MonoBehaviour
 {
-    public GameObject[] enamyPrefab;
+    public GameObject enamyPrefab;
     private int enamyCount;
-    private float SpawnRange = 5;
-    private int waveNumber = 3;
-    public GameObject PowerUpPrefab;
+    private float SpawnRange = 50;
+    private int waveNumber = 1;
+   
 
      
 
@@ -21,8 +21,7 @@ public class SpawnManger : MonoBehaviour
     {
         for (int i = 0; i < enamiesToSpawn; i++)
         {
-            int randomEnamy = Random.Range(0, enamyPrefab.Length);
-            Instantiate(PowerUpPrefab, GenerateSpawnPosition(), enamyPrefab.transform.rotation);
+            Instantiate(enamyPrefab, GenerateSpawnPosition(), enamyPrefab.transform.rotation);
         }
     }
 
