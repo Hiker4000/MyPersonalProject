@@ -12,13 +12,14 @@ public class HealthBar : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        playerHealthScript = GetComponent<PlayerHealth>();
        slider = GetComponent<Slider>();
     }
 
     // Update is called once per frame
     void Update()
     {
-       float fillValue = PlayerHealth.CurrentHealth / PlayerHealth.MaxHealth;
+       float fillValue = PlayerHealth.currentHealth / PlayerHealth.maxHealth;
        slider.value = fillValue;
     }
 }
