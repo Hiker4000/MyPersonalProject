@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1928,7 +1928,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -442.6, y: 87.4}
+  m_AnchoredPosition: {x: -498.5, y: 111.1}
   m_SizeDelta: {x: 165.9294, y: 43.0126}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &453971798
@@ -1994,6 +1994,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e84e14ad87e0034f8e1128cd01f606f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fillImage: {fileID: 1532078926}
+  currentHealth: 1
+  maxHealth: 10
 --- !u!1 &509164235
 GameObject:
   m_ObjectHideFlags: 0
@@ -4179,6 +4182,7 @@ GameObject:
   - component: {fileID: 963194230}
   - component: {fileID: 963194231}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194232}
   m_Layer: 0
   m_Name: Player
   m_TagString: MainCamera
@@ -4295,6 +4299,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.40608102, y: 0.8869047, z: 0.5681423}
   m_Center: {x: -0.012897969, y: -0.05654764, z: 0.051626448}
+--- !u!114 &963194232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fbb937153a2417438954534c3182120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  currentHealth: 1
 --- !u!1 &987134695
 GameObject:
   m_ObjectHideFlags: 0
