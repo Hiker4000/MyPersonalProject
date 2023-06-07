@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class SpawnManger : MonoBehaviour
 {
-    public GameObject enamyPrefab;
-    private int enamyCount;
+    public GameObject trapPrefab;
     private float SpawnRange = 50;
-    private int waveNumber = 1;
    
 
      
@@ -15,25 +13,15 @@ public class SpawnManger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SpawnEnamyWave(waveNumber);
+
     }
-    void SpawnEnamyWave(int enamiesToSpawn)
-    {
-        for (int i = 0; i < enamiesToSpawn; i++)
-        {
-            Instantiate(enamyPrefab, GenerateSpawnPosition(), enamyPrefab.transform.rotation);
-        }
-    }
+   
+    
 
     // Update is called once per frame
     void Update()
     {
-       enamyCount = FindObjectsOfType<Enemy>().Length;
-       if(enamyCount==0)
-        {
-            waveNumber++;
-            SpawnEnamyWave(waveNumber);
-        } 
+      
     }
     private Vector3 GenerateSpawnPosition()
     {
